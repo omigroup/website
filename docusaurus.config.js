@@ -6,7 +6,7 @@ module.exports = {
   title: 'OMI',
   tagline: 'Open Metaverse Interoperability Group',
   url: 'https://omigroup.org',
-  baseUrl: '/',
+  baseUrl: '/website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
