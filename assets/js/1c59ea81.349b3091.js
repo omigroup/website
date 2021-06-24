@@ -1,0 +1,1 @@
+(self.webpackChunkomi_website=self.webpackChunkomi_website||[]).push([[221],{2090:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/website/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/website/blog/tags/docusaurus"}')}}]);

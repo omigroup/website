@@ -1,0 +1,1 @@
+(self.webpackChunkomi_website=self.webpackChunkomi_website||[]).push([[428],{6857:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/website/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/website/blog/tags/hola"}')}}]);
