@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('/static/img/omi-logo.svg').default,
     description: (
       <>
-        Link to join our <a href="https://discord.gg/QFV4QQK" target="_blank">discord server.</a>
+        Link to join our <a href="https://discord.gg/BUFwmPS92W" target="_blank">discord server.</a>
       </>
     ),
   },
