@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'OMI',
-  tagline: 'Open Metaverse Interoperability Group',
+  title: 'Open Metaverse Interoperability Group',
+  tagline: 'Bridging virtual worlds by designing and promoting protocols for identity, social graphs, inventory, and more.',
   url: 'https://omigroup.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -20,16 +20,26 @@ module.exports = {
         src: '/img/omi-logo.png',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
+        // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/omigroup/website',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          label: 'Discord',
+          href: 'https://discord.gg/NJtT9grz5E',
+          position: 'right',
+        },
+        {
+          label: 'Twitter',
+          href: 'https://twitter.com/open_metaverse',
           position: 'right',
         },
       ],
@@ -37,15 +47,15 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Tutorial',
+        //       to: '/docs/intro',
+        //     },
+        //   ],
+        // },
         {
           title: 'Community',
           items: [
@@ -66,10 +76,10 @@ module.exports = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/omigroup',
