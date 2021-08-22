@@ -3,10 +3,13 @@
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
-
- https://docusaurus.io/docs/styling-layout
  */
-main {
-    margin: 16px;
+
+header {
+    margin: 1rem;
     padding: 1rem;
+}
+h1,
+h3 {
+    text-align: center;
 }
