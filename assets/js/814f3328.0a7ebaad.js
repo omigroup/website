@@ -1,0 +1,1 @@
+(self.webpackChunkomi_website=self.webpackChunkomi_website||[]).push([[535],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"title","permalink":"/blog/slug"}]}')}}]);

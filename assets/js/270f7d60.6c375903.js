@@ -1,0 +1,1 @@
+(self.webpackChunkomi_website=self.webpackChunkomi_website||[]).push([[425],{7587:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"tag-1","name":"tag1","count":1,"permalink":"/blog/tags/tag-1"}')}}]);
