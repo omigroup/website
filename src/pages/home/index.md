@@ -21,8 +21,6 @@ The Open Metaverse Interoperability Group (OMI) is focused on bridging virtual w
 - We must cultivate resiliency by championing diversity, and freedom of choice.
 
 
----------------------------------------
 
-<center><img src="/img/jesse-omi-spoke-draft-640.png" alt="OMI Core Values" width="640" /></center>
+<center><img src="/img/CoreValues-Viz.svg" alt="OMI Core Values" width="640" /></center>
 
----------------------------------------
