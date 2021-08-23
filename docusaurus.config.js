@@ -27,9 +27,9 @@ module.exports = {
                 //   position: 'left',
                 //   label: 'Tutorial',
                 // },
-                { to: '/blog', label: 'Blog', position: 'left' },
+                // { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/omigroup/website',
+                    href: 'https://github.com/omigroup/OMI',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -61,12 +61,16 @@ module.exports = {
                     title: 'Community',
                     items: [
                         {
-                            label: 'YouTube',
-                            href: 'https://www.youtube.com/channel/UCB3huP95JrOTma5LfiDCd4A',
+                            label: 'GitHub Discussions',
+                            href: 'https://github.com/omigroup/OMI/discussions',
                         },
                         {
                             label: 'Discord',
                             href: 'https://discord.gg/NJtT9grz5E',
+                        },
+                        {
+                            label: 'YouTube',
+                            href: 'https://www.youtube.com/channel/UCB3huP95JrOTma5LfiDCd4A',
                         },
                         {
                             label: 'Twitter',
@@ -83,7 +87,7 @@ module.exports = {
                         // },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/omigroup',
+                            href: 'https://github.com/omigroup/OMI',
                         },
                     ],
                 },
@@ -99,8 +103,11 @@ module.exports = {
         [
             '@docusaurus/preset-classic',
             {
+                pages: {
+                },
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
+                    showLastUpdateTime: true,
                     // Please change this to your repo.
                     editUrl: 'https://github.com/omigroup/website/edit/main/',
                 },
