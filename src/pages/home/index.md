@@ -23,11 +23,6 @@ The Open Metaverse Interoperability Group (OMI) is focused on bridging virtual w
 
 ---------------------------------------
 
-<center><img src="../../static/img/jesse-omi-spoke-draft-640.png" alt="OMI Core Values" width="640" /></center>
+<center><img src="/img/jesse-omi-spoke-draft-640.png" alt="OMI Core Values" width="640" /></center>
 
 ---------------------------------------
-
-<!--
-![OMI Core Values](../../static/img/jesse-omi-spoke-draft.png)
--->
-
