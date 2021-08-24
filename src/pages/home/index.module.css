@@ -1,7 +1,6 @@
 /* styles specific to index.md */
 
-header {
-    margin: 0 1rem;
-    padding: 1rem;
-    text-align: center;
+main {
+  padding-left: 3em !important;
+  padding-right: 3em !important;
 }
