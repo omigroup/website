@@ -69,12 +69,12 @@ module.exports = {
                             href: 'https://discord.gg/NJtT9grz5E',
                         },
                         {
-                            label: 'YouTube',
-                            href: 'https://www.youtube.com/channel/UCB3huP95JrOTma5LfiDCd4A',
-                        },
-                        {
                             label: 'Twitter',
                             href: 'https://twitter.com/open_metaverse',
+                        },
+                        {
+                            label: 'Calendar',
+                            href: 'https://calendar.google.com/calendar/u/1?cid=Y18wZHB1Z2Y5ZjgzZXE0cWVrbWI2b21xYmptZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t',
                         },
                     ],
                 },
@@ -88,6 +88,10 @@ module.exports = {
                         {
                             label: 'GitHub',
                             href: 'https://github.com/omigroup/OMI',
+                        },
+                        {
+                            label: 'YouTube',
+                            href: 'https://www.youtube.com/channel/UCB3huP95JrOTma5LfiDCd4A',
                         },
                     ],
                 },
