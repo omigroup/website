@@ -1,34 +1,34 @@
 import React from 'react'
+import clsx from 'clsx'
 import styles from './HomepageHeader.module.css'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 
-// NOTE: component workaround so purple main head can be managed from markdown
-// <HomepageHeader>
-//   # headline
-//   ## sub
-// </HomepageHeader>
-
-export default function HomepageHeader(props, x) {
-    const title = (props.children.match(/(?:^|\s)# ([^#\n]+)/)||[])[1];
-    const subtitle = (props.children.match(/(?:^|\s)## ([^#\n]+)/)||[])[1];
+export const HomepageHeader = () => {
+    const { siteConfig } = useDocusaurusContext()
     return (
-        <div className={styles.full_width}>
-          <div className={styles.unfull_width}>
-            <header>
-              <h1>{title}</h1>
-              <h2>{subtitle}</h2>
-            </header>
-          </div>
-        </div>
+        <header className={styles.heroBanner}>
+            <h1 className={clsx('margin-bottom--sm')}>{siteConfig.title}</h1>
+            <h3 className={clsx('margin-bottom--lg')}>{siteConfig.tagline}</h3>
+            <div className={styles.heroButtonContainer}>
+                <a
+                    href="https://discord.gg/NJtT9grz5E"
+                    className={clsx(
+                        'button button--secondary',
+                        styles.heroButton
+                    )}
+                >
+                    Join Us in Discord
+                </a>
+                <a
+                    href="https://github.com/omigroup/OMI"
+                    className={clsx(
+                        'button button--secondary',
+                        styles.heroButton
+                    )}
+                >
+                    GitHub Repo
+                </a>
+            </div>
+        </header>
     )
 }
-
-// const Title = ({ children }) => {
-//   return <h1>{children}</h1>;
-// };
-// 
-// const SubTitle = ({ children }) => {
-//   return <h3>{children}</h3>;
-// };
-// 
-// HomepageHeader.Title = Title;
-// HomepageHeader.SubTitle = SubTitle;

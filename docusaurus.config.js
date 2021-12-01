@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 module.exports = {
     title: 'Open Metaverse Interoperability Group',
     tagline:
-        'Bridging virtual worlds by designing and promoting protocols for identity, social graphs, inventory, and more.',
+        'Bridging virtual worlds by designing and promoting shared protocols.',
     url: 'https://omigroup.org',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -15,7 +15,7 @@ module.exports = {
     projectName: 'website', // Usually your repo name.
     themeConfig: {
         navbar: {
-            title: 'OMI',
+            title: 'OMIgroup',
             logo: {
                 alt: 'OMI logo',
                 src: '/img/omi-logo.png',
@@ -29,18 +29,23 @@ module.exports = {
                 // },
                 // { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/omigroup/OMI',
-                    label: 'GitHub',
+                    label: 'Learn',
+                    to: '/learn',
                     position: 'right',
                 },
                 {
-                    label: 'Discord',
-                    href: 'https://discord.gg/NJtT9grz5E',
+                    label: 'Create',
+                    to: '/create',
                     position: 'right',
                 },
                 {
-                    label: 'Twitter',
-                    href: 'https://twitter.com/open_metaverse',
+                    label: 'Discover',
+                    to: '/discover',
+                    position: 'right',
+                },
+                {
+                    label: 'Contribute',
+                    to: 'https://github.com/omigroup/OMI',
                     position: 'right',
                 },
             ],
@@ -107,8 +112,7 @@ module.exports = {
         [
             '@docusaurus/preset-classic',
             {
-                pages: {
-                },
+                pages: {},
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     showLastUpdateTime: true,
