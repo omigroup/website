@@ -1,0 +1,21 @@
+.container {
+
+}
+
+.sidebar-button {
+
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar-visible {
+  display: flex;
+}
+
+@media (min-width: 750px) {
+  .sidebar, .sidebar-button {
+    display: none;
+  }
+}
