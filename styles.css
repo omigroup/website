@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 300;
 }
 
@@ -23,12 +23,12 @@ h4 {
 }
 
 h5 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
 }
 
 p {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 section {
@@ -55,7 +55,7 @@ section {
 }
 
 .button.primary {
-  background-color: #7A71F6;
+  background-color: #7a71f6;
   color: white;
 }
 
@@ -82,17 +82,10 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  font-size: 48px;
-  color: black;
-  font-weight: 200;
 }
 
 .logo img {
   margin-right: 9px;
-}
-
-.logo strong {
-  font-weight: 700;
 }
 
 .header-nav ul {
@@ -108,15 +101,28 @@ header {
 .header-button {
   text-decoration: none;
   color: black;
-  padding: 14px 16px;
+  padding: 10px 16px;
   font-size: 18px;
   background-image: url(./images/button-bg.svg);
   background-repeat: no-repeat;
   background-position: bottom left;
 }
+.header-button:hover {
+  transition-duration: 1s;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 
+    /* inner white */ inset 20px 0 80px #9a30ea,
+    /* inner left magenta short */ inset -30px 0 80px #0ff,
+    /* inner right cyan short */ inset 30px 0 300px #9a30ea,
+    /* inner left magenta broad */ inset -30px 0 300px #0ff,
+    /* inner right cyan broad */ 0 0 300px #fff,
+    /* outer white */ -20px 0 70px #9a30ea,
+    /* outer left magenta */ 10px 0 70px #0ff;
+  /* outer right cyan */
+}
 
 .sidebar-button {
-
 }
 
 .sidebar {
@@ -128,7 +134,8 @@ header {
 }
 
 @media (min-width: 750px) {
-  .sidebar, .sidebar-button {
+  .sidebar,
+  .sidebar-button {
     display: none;
   }
 }
@@ -145,8 +152,16 @@ header {
   margin-left: 24px;
 }
 
+.avatar-1 {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 85%;
+  z-index: -1;
+}
 .partner-section {
-  margin: 140px 0;
+  margin: 80px 0;
 }
 
 .get-involved-section h2 {
@@ -159,7 +174,7 @@ header {
   background-image: url(./images/section-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 140px 0;
+  padding: 96px 0;
 }
 
 .get-involved-section .column > * {
@@ -167,7 +182,15 @@ header {
 }
 
 .values-section {
-  margin: 169px 0;
+  margin: 80px 0;
+}
+
+.omi-bg {
+  display: fixed;
+  position: absolute;
+  max-width: 1024px;
+  isolation: isolate;
+  z-index: -1;
 }
 
 .values-section ul {
@@ -193,7 +216,7 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 322px;
-  height: 350px;
+  height: 250px;
   justify-content: space-between;
 }
 
